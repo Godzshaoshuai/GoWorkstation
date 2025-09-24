@@ -42,7 +42,6 @@ func Dijkstra(graph [][]int, startIndex int) []int {
 }
 
 func main() {
-	// 测试用例1: 连通图
 	fmt.Println("===== 测试用例1: 连通图 =====")
 	graph1 := [][]int{
 		{0, 4, InfMax, 2, InfMax}, // 节点0
